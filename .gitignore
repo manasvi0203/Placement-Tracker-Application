@@ -33,3 +33,15 @@ coverage/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Uploads folder — don't push student resumes/files to GitHub
+server/uploads/
+
+# package-lock.json
+
+# Vite cache
+client/.vite/
+
+# JWT / secrets (extra safety)
+*.pem
+*.key
