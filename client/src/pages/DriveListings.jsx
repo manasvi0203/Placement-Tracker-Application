@@ -13,9 +13,12 @@ export default function DriveListings() {
 
   useEffect(() => {
     const token = localStorage.getItem("token");
+
     if (!token) { navigate("/auth"); return; }
     const headers = { Authorization: `Bearer ${token}` };
+
     axios.get("/api/drives", { headers }).then((r) => setDrives(r.data));
+
     axios.get("/api/student/profile", { headers }).then((r) => setProfile(r.data));
   }, []);
 
@@ -27,6 +30,7 @@ export default function DriveListings() {
     if (search &&
       !d.company.toLowerCase().includes(search.toLowerCase()) &&
       !d.role.toLowerCase().includes(search.toLowerCase())) return false;
+      
     if (typeFilter && d.type !== typeFilter) return false;
     if (filter === "eligible") return d.status === "open" && isEligible(d);
     if (filter === "closed") return d.status === "closed";
