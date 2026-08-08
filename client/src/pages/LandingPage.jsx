@@ -121,7 +121,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer style={styles.footer}>
         <span style={styles.logo}>PlaceTrack</span>
-        <span style={styles.footerNote}>© 2025 · Built with MERN Stack</span>
+        <span style={styles.footerNote}>© 2026 · Built with MERN Stack</span>
       </footer>
     </div>
   );
