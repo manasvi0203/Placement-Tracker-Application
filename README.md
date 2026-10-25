@@ -174,10 +174,7 @@ Add screenshots of:
 * Interview scheduling
 * Resume upload and management
 * Email notifications
-* Student eligibility checker
-* Export reports (CSV/PDF)
 * Placement analytics with charts
-* Company HR portal
 
 ---
 
