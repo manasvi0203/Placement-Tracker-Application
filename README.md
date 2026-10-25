@@ -158,14 +158,16 @@ http://localhost:5173
 
 ## Screenshots
 
-Add screenshots of:
+<img width="932" height="427" alt="image" src="https://github.com/user-attachments/assets/2c9a84ef-bdab-41b2-aecb-b40a9421be8a" />
 
-* Login Page
-* Student Dashboard
-* Admin Dashboard
-* Company Management
-* Job Listings
-* Placement Analytics
+<img width="928" height="411" alt="image" src="https://github.com/user-attachments/assets/84e733ae-4ceb-4c48-b6b4-0a8b0d0a31e0" />
+
+<img width="935" height="430" alt="image" src="https://github.com/user-attachments/assets/c102be9f-35e1-4ca7-a5d0-502638cb2a4d" />
+
+<img width="932" height="418" alt="image" src="https://github.com/user-attachments/assets/4ea9f546-e2ca-4572-9270-a9b2f156488d" />
+
+<img width="926" height="416" alt="image" src="https://github.com/user-attachments/assets/2004db37-fd07-436d-90a3-de08d14b324a" />
+
 
 ---
 
